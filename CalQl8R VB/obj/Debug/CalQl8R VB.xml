@@ -1,0 +1,247 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CalQl8RVB
+</name>
+</assembly>
+<members>
+<member name="T:CalQl8R_VB.calql8r.Enums.EnumAnswerFormat">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Functions.CalSinh">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="P:CalQl8R_VB.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:CalQl8R_VB.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:CalQl8R_VB.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:CalQl8R_VB.calql8r.Operators.CalDivision">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Operators.CalFactorial">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Operators.CalSubtract">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Values.CalRandom">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Enums.EnumCalObjs">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Functions.CalCos">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Functions.CalSin">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="M:CalQl8R_VB.calql8r.CalQl8R.#ctor(System.String)">
+	<param name="expression"> The expression to be calculated. For example: 1+3/4*5-(42-24). </param>
+</member><member name="M:CalQl8R_VB.calql8r.CalQl8R.decimalLoop(System.Collections.Generic.List{CalQl8R_VB.calql8r.GeneralCalButton})">
+	<summary>
+ This method finds the preceeding and proceeding number from the decimal point and combines them. </summary>
+	<param name="calculatorObj">
+ @return </param>
+</member><member name="M:CalQl8R_VB.calql8r.CalQl8R.numberLoop(System.Collections.Generic.List{CalQl8R_VB.calql8r.GeneralCalButton})">
+	<summary>
+ Convert adjacent one object numbers into one general value number </summary>
+	<param name="calculatorObj">
+ @return </param>
+</member><member name="M:CalQl8R_VB.calql8r.CalQl8R.operatorLoop(System.Collections.Generic.List{CalQl8R_VB.calql8r.GeneralCalButton})">
+	<summary>
+ This method finds an operator and calculate the value from left and right values. </summary>
+	<param name="calculatorObj">
+ @return </param>
+</member><member name="M:CalQl8R_VB.calql8r.CalQl8R.bracketLoop(System.Collections.Generic.List{CalQl8R_VB.calql8r.GeneralCalButton})">
+	<summary>
+ This method finds the inner most bracket and calculate the solution to the expression </summary>
+	<param name="calculatorObj">
+ @return </param>
+</member><member name="M:CalQl8R_VB.calql8r.CalQl8R.positiveAndNegativeLoop(System.Collections.Generic.List{CalQl8R_VB.calql8r.GeneralCalButton})">
+	<summary>
+ This method finds repeating minus and addition signs and replaces them </summary>
+	<param name="calculatorObj">
+ @return </param>
+</member><member name="M:CalQl8R_VB.calql8r.CalQl8R.timeLoop(System.Collections.Generic.List{CalQl8R_VB.calql8r.GeneralCalButton})">
+	<summary>
+ This methods finds the three time point objects and converts the adjacent time values into a single value </summary>
+	<param name="calculatorObjs">
+ @return </param>
+</member><member name="M:CalQl8R_VB.calql8r.CalQl8R.functionLoop(System.Collections.Generic.List{CalQl8R_VB.calql8r.GeneralCalButton})">
+	<summary>
+ This methods finds the inner most function object and its corresponding
+ parameters and evaluates the expression. </summary>
+	<param name="calculatorObj">
+ @return </param>
+</member><member name="M:CalQl8R_VB.calql8r.CalQl8R.setExpression(System.String)">
+	<summary>
+ This method converts the string expression to calculator objects for calculations. </summary>
+	<param name="expression"> The expression to calculate. </param>
+	<returns> Returns if a boolean indicating if expression was converted successfully  </returns>
+</member><member name="M:CalQl8R_VB.calql8r.CalQl8R.setAnswerFormatToTime">
+	<summary>
+ This method change the form of the answer in a time form. *Set after the calculator has already run*
+ </summary>
+</member><member name="M:CalQl8R_VB.calql8r.CalQl8R.setAnswerFormatToFraction">
+	<summary>
+ This method change the form of the answer in a fraction form. For instance 1.5 to 1/1/2. *Set after the calculator has already run*
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.CalQl8R">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Enums.EnumError">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Operators.CalRoot">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Functions.CalArcTan">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Operators.CalAdd">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Operators.CalModulus">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Operators.CalPermutations">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Operators.GeneralCalOperator">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Logic.CalMinus">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Functions.CalExp">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Functions.CalTanh">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.GeneralCalButton">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Logic.CalBracketOpen">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.OperatorsExtra.CalTime">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Values.CalAns">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Logic.CalDecimal">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Enums.EnumAngles">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Functions.CalTan">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Logic.CalAbsBracket">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Operators.CalPow">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Functions.CalArcCos">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Functions.CalArcSin">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Functions.CalLn">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Operators.CalMultiplication">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Functions.CalCosh">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Logic.CalBracketClose">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Logic.CalParameterSeparator">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Values.GeneralCalValue">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Operators.CalBase10">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Values.CalNumber">
+	<summary>
+ @author MARTIN KULULANGA
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Functions.CalLog">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="M:CalQl8R_VB.calql8r.Functions.GeneralCalFunction.clearParameterMemory">
+	<summary>
+ The class seems to store the same parameters for other functions. There is a need to clear the memory
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Functions.GeneralCalFunction">
+	<summary>
+ @author MARTIN
+ </summary>
+</member><member name="T:CalQl8R_VB.calql8r.Operators.CalCombinations">
+	<summary>
+ @author MARTIN
+ </summary>
+</member>
+</members>
+</doc>

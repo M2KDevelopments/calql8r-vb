@@ -1,0 +1,9 @@
+c:\users\martin\documents\visual studio 2012\Projects\CalQl8R VB\CalQl8R VB\obj\Debug\CalQl8R_VB.Resources.resources
+c:\users\martin\documents\visual studio 2012\Projects\CalQl8R VB\CalQl8R VB\obj\Debug\CalQl8R VB.vbproj.GenerateResource.Cache
+C:\Users\MARTIN\documents\visual studio 2012\Projects\CalQl8R VB\CalQl8R VB\bin\Debug\CalQl8R VB.dll.config
+C:\Users\MARTIN\documents\visual studio 2012\Projects\CalQl8R VB\CalQl8R VB\bin\Debug\CalQl8R VB.dll
+C:\Users\MARTIN\documents\visual studio 2012\Projects\CalQl8R VB\CalQl8R VB\bin\Debug\CalQl8R VB.pdb
+C:\Users\MARTIN\documents\visual studio 2012\Projects\CalQl8R VB\CalQl8R VB\bin\Debug\CalQl8R VB.xml
+C:\Users\MARTIN\documents\visual studio 2012\Projects\CalQl8R VB\CalQl8R VB\obj\Debug\CalQl8R VB.dll
+C:\Users\MARTIN\documents\visual studio 2012\Projects\CalQl8R VB\CalQl8R VB\obj\Debug\CalQl8R VB.xml
+C:\Users\MARTIN\documents\visual studio 2012\Projects\CalQl8R VB\CalQl8R VB\obj\Debug\CalQl8R VB.pdb
